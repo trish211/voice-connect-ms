@@ -7,7 +7,7 @@ The micro service application responds to the request of the client by providing
 
 MicroServiceController.java
 
-#The micro service controller works with the following conditions:
+The micro service controller works with the following conditions:
 1. An SBT plugin tools must be installed in your local system. An SBT build file is provided for you.
 2. The micro service controller includes services, utilities & modules as shown below: 
  - CallMapping.java
@@ -26,4 +26,4 @@ MicroServiceController.java
  - Utils.java
  - Module.java
 
-#The micro service application can be tested using a consumer-driven testing or Pact testing framework.
+The micro service application can be tested using a consumer-driven testing or Pact testing framework.
