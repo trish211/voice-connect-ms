@@ -1,5 +1,5 @@
 # voice-connect-ms
-This is a micro service application that processes a call back request from a client. The customer provides the topic of request by giving the type of segment, reason & service. 
+This is a micro service application that processes a call back request from a client. The customer provides the topic of request by giving the type of segment, reason & service (e.g. segment = "Consumer", reason = "EnquireBill", service = "Mobile").  
 
 The micro service then processes the request from the client. This is done by making a request to the virtual queue stub, which generates the virtual queue ID for the customer. The micro service also makes a request to the CEM which provides the customer callback wait time details. 
 
