@@ -3,7 +3,7 @@ This is a micro service application that processes a call back request from a cl
 
 The micro service then processes the request from the client. This is done by making a request to the virtual queue stub, which generates the virtual queue ID for the customer. The micro service also makes a request to the CEM which provides the customer callback wait time details. 
 
-The micro service application responds to the request of the client by providing in return the virtual queue ID and the call back waiting time.
+The micro service application responds to the request of the client by providing in return the virtual queue ID (e.g. C1E2M365432) and the call back waiting time (e.g. 300000 Milliseconds).
 
 # MicroServiceController.java
 
