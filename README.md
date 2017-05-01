@@ -26,4 +26,4 @@ The micro service controller works with the following conditions:
  - Utils.java
  - Module.java
 
-The micro service application can be tested using a consumer-driven testing or Pact testing framework.
+The micro service application can be tested using a consumer-driven testing or Pact testing framework which can be found on https://github.com/trish211/voice-connect-pact.git.
